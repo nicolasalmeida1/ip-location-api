@@ -1,4 +1,4 @@
-# Backend Developer Challenge – IP Location API
+# IP Location API
 
 ## Description
 
@@ -10,6 +10,8 @@ This project implements a REST API in TypeScript that receives an IP address and
 - Node.js v18+
 - package manager npm or yarn
 - [K6](https://grafana.com/docs/k6/next/) for load testing (optional)
+- [ip-location.csv](https://drive.google.com/file/d/1RxifQa5i7_LjumVARs_KjDUSu1WFjNfX/view?usp=sharing) for execute the api, you need to download and add to the root of the project
+
 > If you don't have K6 installed, follow the installation guide at https://grafana.com/docs/k6/next/get-started/write-your-first-test/
 
 ## How to Run
