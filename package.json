@@ -1,0 +1,35 @@
+{
+  "name": "ip-location-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "jest",
+    "lint": "eslint '**/*.{ts,js}' --ignore-path .eslintignore",
+    "lint:fix": "eslint --fix src/ tests/",
+    "format": "prettier --write 'src/**/*.{ts,js,json,md}'"
+  },
+  "author": "Nicolas Almeida",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@types/jest": "^29.5.14",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "globals": "^16.1.0",
+    "jest": "^29.7.0",
+    "js-doc": "^0.5.0",
+    "prettier": "^3.5.3",
+    "ts-jest": "^29.3.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  },
+  "dependencies": {
+    "fastify": "^5.3.3"
+  }
+}
